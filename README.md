@@ -22,7 +22,7 @@ npm install
 
 ## .env Setup
 
-Rename .env_sample.txt to .env and change api url to actual.
+Rename .env_sample.txt to .env and change API URL to actual.
 
 ### Compile and Hot-Reload for Development
 
