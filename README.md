@@ -20,6 +20,12 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 npm install
 ```
 
+## .env Setup
+
+```sh
+rename .env_sample.txt to .env and change api url to actual
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -37,3 +43,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+
+Questions:
+1.	Is the solution of creating a list of buttons to switch the year correct when the button is implemented as RouterLink with corresponding query? In this case, all links are mouted to the DOM whith class="router-link-active router-link-exact-active".
+2.	Is it the correct approach to make additional request to display the country name on the country page? Would it be better to use storing the list of countries in SessionStorage?
+
